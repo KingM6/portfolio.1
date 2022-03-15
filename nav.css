@@ -1,0 +1,9 @@
+nav {
+    background-color: rgb(255, 102, 0);
+   }
+   nav ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 35% 35% 35% 35%;
+    text-align: center;
+   }
