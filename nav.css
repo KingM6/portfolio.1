@@ -1,9 +1,21 @@
 nav {
-    background-color: rgb(255, 102, 0);
+    background-color: rgba(252, 246, 246, 0.685);
    }
    nav ul {
     list-style-type: none;
     display: grid;
     grid-template-columns: 35% 35% 35% 35%;
     text-align: center;
+   }
+   body {
+    background-color:rgb(1, 11, 20);
+   }
+   h1 {
+       color: White;
+   }
+   h2 {
+       color:white
+   }
+   p {
+       color:white
    }
