@@ -1,5 +1,5 @@
 body {
-    background-color:red;  
+    background-color:white;  
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows:auto;
@@ -13,3 +13,33 @@ body {
 .on, .off{
     display:none;
 }
+/* Index style */
+.index{
+    background-color: rgb(255, 255, 255);
+}
+
+.index img{
+    height:20em;
+    width:20em;
+    border-radius:100%;
+    box-shadow: 5px 10px #888888;
+}
+
+.index {
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "r1"
+    "r2"
+    "r3"
+    "r4";
+    height: 80vh;
+}
+
+.index img {grid-area: r1; margin: 0 auto;}
+.index h2 {grid-area: r2;}
+.index p:nth-child(1) {grid-area: r3;}
+.index p:nth-child(2) {grid-area: r4;}
+
+
