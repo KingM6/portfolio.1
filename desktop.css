@@ -59,3 +59,14 @@ body {
 .portfolio{
     background-color: rgb(255, 255, 255);
 }
+.blog{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "r1"
+    "r2"
+    "r3"
+    "r4";
+    height: 80vh;
+}
