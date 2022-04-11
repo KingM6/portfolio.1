@@ -70,3 +70,15 @@ body {
     "r4";
     height: 80vh;
 }
+
+.sitereport{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "r1"
+    "r2"
+    "r3"
+    "r4";
+    height: 80vh;
+}
