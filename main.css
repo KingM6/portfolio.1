@@ -20,7 +20,7 @@ nav a {
     text-align: center;
 }
 main{
-    background-color:blue;
+    background-color:rgb(9, 9, 141);
     grid-area:main;
     text-align: center;
 }
